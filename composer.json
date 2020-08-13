@@ -24,13 +24,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Elipzis\\EmbedCard\\": "src/"
+            "Elipzis\\NovaEmbedCard\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Elipzis\\EmbedCard\\CardServiceProvider"
+                "Elipzis\\NovaEmbedCard\\CardServiceProvider"
             ]
         }
     },
