@@ -1,0 +1,42 @@
+{
+    "name": "elipzis/nova-embed-card",
+    "description": "A custom Laravel Nova card to embed external content in an iframe",
+    "keywords": [
+        "laravel",
+        "nova",
+        "embed",
+        "iframe",
+        "url",
+        "card",
+        "dashboard"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/elipZis/nova-embed-card",
+    "authors": [
+        {
+            "name": "Savas Ziplies",
+            "email": "contact@elipZis.com",
+            "homepage": "https://elipZis.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elipzis\\EmbedCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Elipzis\\EmbedCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
