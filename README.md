@@ -52,6 +52,9 @@ See the [Laravel Nova documentation][2] for more insights about cards.
 * `headerClasses('string')` : CSS classes to attach to the header element
 * `footerClasses('string')` : CSS classes to attach to the footer element
 
+#### Example
+![Screenshot](../assets/nova-embed-card-screenshot1.png)
+
 ## Compatibility
 This custom Laravel Nova Embed Card has been tested with Laravel Nova v3.8.2
 
